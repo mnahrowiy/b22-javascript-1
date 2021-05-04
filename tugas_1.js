@@ -35,18 +35,18 @@ const biodata = {
 
     ],
 
-    skill : [
+    skills : [
         {
             skillName: "Python",
             level: "advanced",
-            interestInCoding: true,
         },
         {
             skillName: "Javascript",
             level: "beginner",
-            interestInCoding: true,
         }
-    ]
+    ],
+    
+    interestInCoding: true,
 
 }
 
