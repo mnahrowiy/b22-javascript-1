@@ -1,11 +1,6 @@
 
 // soal nomor 4
 
-let data_saya = {
-    name: "Nahrowi",
-    email: "mnahrowiy@gmail.com",
-    hobby : "koding"
-}
 let data = {
     id: 1,
     name: "Leanne Graham",
@@ -24,14 +19,18 @@ let data = {
 
 
 
-let data_baru = {...data,...data_saya}
+let data_baru = {
+    ...data,
+    name: "Nahrowi",
+    email: "mnahrowiy@gmail.com",
+    hobby: "koding"
+    }
     
 console.log(data_baru);
 
 
 // destruction
-const {street} = data.address
-const {city} = data.address
+const {street,city} = data.address
 
 console.log(street)
 console.log(city)
